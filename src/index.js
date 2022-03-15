@@ -1,17 +1,63 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from "./components/App"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+
+// const obs = new IntersectionObserver(
+//   function (entries) {
+//     const ent = entries[0];
+//     console.log(ent);
+
+//     if (ent.isIntersecting === false) {
+//       document.body.classList.add("sticky");
+//     }
+
+//     if (ent.isIntersecting === true) {
+//       document.body.classList.remove("sticky");
+//     }
+//   },
+//   {
+//     // In the viewport
+//     root: null,
+//     threshold: 0,
+//     rootMargin: "-80px",
+//   }
+// );
+// obs.observe(sectionHeroEl);
+
+ReactDOM.render(<App />, document.getElementById('root')
 );
+// const Hero = document.querySelector(".hero-section");
+// const HowTo = document.querySelector(".section-how");
+// const Shop = document.querySelector(".Shop-container");
+// console.log(Shop);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+// const obs = new IntersectionObserver(
+//   function (entries) {
+//     const ent = entries[0];
+//     console.log(ent);
+
+//     if (ent.isIntersecting === false) {
+//       document.querySelector(".Header01").classList.add("headerOnMove")
+//     }
+
+//     if (ent.isIntersecting === true) {
+
+//       document.querySelector(".Header01").classList.remove("headerOnMove")
+//     }
+//   },
+//   {
+//     // In the viewport
+//     root: null,
+//     threshold: 0,
+//     rootMargin: "-80px",
+//   }
+// );
+// obs.observe(Hero);
+// obs.observe(HowTo);
+// obs.observe(Shop)
