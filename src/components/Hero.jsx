@@ -17,7 +17,7 @@ function Hero(props) {
 
       </div>
       <div className='hero-imgbox'>
-        <img className='hero-img' src="/Imgs/Dress1.jpg" alt='zew'></img>
+        <img className='hero-img' src="/Imgs/Dress1.JPG" alt='zew'></img>
       </div>
     </div>
   </section >);
