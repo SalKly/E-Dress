@@ -19,14 +19,16 @@ function Hero2() {
       <div className='Hero2-cont'>
 
         <div className='img1'>
-          <img src='imgs/Spring.jpg'></img>
+          <img src={process.env.PUBLIC_URL + 'imgs/Spring.jpg'}
+          ></img>
           <div className='img1-Text'>
             <h2 className='heading-secondary bold'>Spring's Top Trends</h2>
             <Link to={"products/New"} className='hero2-desc'>RENT THEM ALL!</Link>
           </div>
         </div>
         <div className='img2'>
-          <img src='imgs/hijab.jpg'></img>
+
+          <img src={process.env.PUBLIC_URL + 'imgs/hijab.jpg'}></img>
           <div className='img2-Text'>
             <h2 className='heading-secondary bold' >Latest designes</h2>
             <Link to={"products/Spring"} className='hero2-desc'>GET STARTED!</Link>

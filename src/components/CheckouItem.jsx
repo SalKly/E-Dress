@@ -11,7 +11,7 @@ function CheckouItem(props) {
       </div>
       <div className='item-info'>
         <div className='img_info'>
-          <img className='Checkout-img' src={props.data.img} />
+          <img className='Checkout-img' src={process.env.PUBLIC_URL + props.data.img} />
           <div className='info'>
             <p className='ItemHead'>{props.data.name}</p>
             <p>Description</p>

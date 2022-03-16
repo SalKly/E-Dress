@@ -19,11 +19,11 @@ function How(props) {
           Each of our memberships start with 4 items at a time and vary based on how often you wish to receive new shipments. Our memberships are completely customizable and designed to evolve as you do. Add or remove spots and shipments as you see fit.</p>
       </div>
       <div className='step-imgbox'>
-        <img className='imgbox-img' src='imgs/Howto_P1.png'></img>
+        <img className='imgbox-img' src={process.env.PUBLIC_URL + 'imgs/Howto_P1.png'}></img>
       </div>
       {/* Step2 */}
       <div className='step-imgbox'>
-        <img className='imgbox-img' src='imgs/Howto_P2.png'></img>
+        <img className='imgbox-img' src={process.env.PUBLIC_URL + 'imgs/Howto_P1.png'}></img>
       </div>
       <div className='step-textbox'>
         <h3 className='heading-tert'>Pick a Plan</h3>
@@ -37,7 +37,7 @@ function How(props) {
           Each of our memberships start with 4 items at a time and vary based on how often you wish to receive new shipments. Our memberships are completely customizable and designed to evolve as you do. Add or remove spots and shipments as you see fit.</p>
       </div>
       <div className='step-imgbox'>
-        <img className='imgbox-img' src='imgs/Howto_P3.png'></img>
+        <img className='imgbox-img' src={process.env.PUBLIC_URL + 'imgs/Howto_P1.png'}></img>
       </div>
 
 

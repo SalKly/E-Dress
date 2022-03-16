@@ -184,7 +184,7 @@ function Nav(props) {
           <div className='MN-main-nav-list' style={SearchActive ? { opacity: "0", visbility: "hidden" } : null}  >
             <FiMenu style={mobileNav ? { display: "none" } : null} onClick={() => { SetmobileNav(true) }} className='Burger'></FiMenu>
             <Link className='Logo-Link' to={"/"}>
-              <img className='Logo' src="https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"></img>
+              <img className='Logo' src={process.env.PUBLIC_URL + "https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}></img>
             </Link>
 
           </div>
@@ -193,7 +193,7 @@ function Nav(props) {
 
           <ul className=" main-nav-list" style={SearchActive ? { opacity: "0", visbility: "hidden" } : null} >
             <Link className='Logo-Link' to={"/"}>
-              <img className='Logo' src="https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"></img>
+              <img className='Logo' src={process.env.PUBLIC_URL + "https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}></img>
             </Link>
             {(props.infoGet).map((navitemInfo) => {
               return <NavItem target={onDropdown} hhandleOnMouseOutNav={handleOnMouseOutNav} handleOnMouseNav={handleOnMouseNav}

@@ -34,7 +34,8 @@ function Checkout(props) {
         <div className='Checkout-navbar'>
           <div className='Logo_title'>
             <Link className='Logo-Link' to={"/"}>
-              <img className='Logo' src="https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"></img>
+              <img className='Logo' src={process.env.PUBLIC_URL + "https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}
+              ></img>
             </Link>
             <h2 className='heading-secondary CheckoutHeader'>Checkout</h2>
 

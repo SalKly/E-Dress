@@ -9,7 +9,7 @@ function Dropdown(props) {
     props.handleOnMouseOutDropdown()
   }}
     style={props.style} className='dropdownContainer '>
-    <div className='imgBox' ><img className='dropdownImg' src={img} /></div>
+    <div className='imgBox' ><img className='dropdownImg' src={process.env.PUBLIC_URL + img} /></div>
 
     <div className='dropdownContentBox flex' >
       {data.map((FirstLayer, index) => {
