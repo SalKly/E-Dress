@@ -69,7 +69,7 @@ function App() {
       <Routes>
 
 
-        <Route path='/E-Dress' element={<div> <Nav topstate={topstate} TotalPrice={TotalPrice} SetTotalPrice={SetTotalPrice} CartInfo={CartInfo} SetCartInfo={SetCartInfo} infoGet={mainNav}></Nav>
+        <Route path='/E-Dress/' element={<div> <Nav topstate={topstate} TotalPrice={TotalPrice} SetTotalPrice={SetTotalPrice} CartInfo={CartInfo} SetCartInfo={SetCartInfo} infoGet={mainNav}></Nav>
           <Hero topstate={topstate} ></Hero><RentingFor></RentingFor><MenuSlider getImg={SetChoosenImgData} ></MenuSlider><Hero2></Hero2><MenuSlider getImg={SetChoosenImgData} ></MenuSlider>
           <ToHowto></ToHowto></div>} />
         <Route exact path='/products/:category' element={<div><Nav topstate={topstate} TotalPrice={TotalPrice} SetTotalPrice={SetTotalPrice} CartInfo={CartInfo} SetCartInfo={SetCartInfo} infoGet={mainNav}></Nav>
