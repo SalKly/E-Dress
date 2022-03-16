@@ -1,0 +1,251 @@
+@media (max-width: 85em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .Hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .Hidden2 {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tert {
+    font-size: 2.4rem;
+  }
+  .ProductContainer {
+    gap: 4.8rem;
+  }
+  .Hero2-cont img {
+    height: 60rem;
+    max-width: 40rem;
+  }
+  .MenuCartmResp img {
+    height: 30rem;
+    max-width: 24rem;
+  }
+
+  .Defimg {
+    transform: scale(0.5);
+  }
+  header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    column-gap: 4.8rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+    height: 50rem;
+  }
+  .grid {
+    gap: 4.8rem;
+  }
+  .imgbox-img {
+    width: 80%;
+    object-fit: contain;
+  }
+  .MenuItemsCont {
+    gap: 2rem;
+  }
+  .MenuCardContainer {
+    padding: 1rem;
+  }
+  .Responsive {
+    height: 20rem;
+  }
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+  .Checkout-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .item-data {
+    width: 100%;
+  }
+  .ProductContainer {
+    grid-template-columns: auto 1fr;
+  }
+  .ProductAddtoBag {
+    grid-column: 1/-1;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .Burger {
+    display: block;
+    align-self: center;
+    height: 100%;
+    font-size: 3rem;
+  }
+  .BurgerX {
+    display: block;
+  }
+  .MN-main-nav-list {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+    height: 100%;
+  }
+  header {
+    grid-template-columns: auto 1fr;
+  }
+  .Hero2-cont img {
+    max-width: 30rem;
+  }
+  .Hero2-cont {
+    grid-template-columns: auto auto;
+  }
+  .Hero2-cont h2 {
+    font-size: 3rem;
+  }
+  .Hero2-Section {
+    padding: 3.2rem;
+  }
+  .MenuCartmResp img {
+    height: 25rem;
+    max-width: 22rem;
+  }
+}
+@media (max-width: 44em) {
+  .Shop-container {
+    grid-template-columns: 1fr;
+  }
+  .CategoryBox {
+    display: none;
+  }
+  .Filterbar-container {
+    font-size: 1.8rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .step-imgbox:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-imgbox:nth-child(6) {
+    grid-row: 5;
+  }
+}
+
+@media (max-width: 33em) {
+  .MenuItemsCont {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav-cta {
+    display: none;
+  }
+  .Footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 4.8rem;
+  }
+  .Socials {
+    grid-column: 1/-1;
+  }
+
+  .hero-section {
+    padding: 2.4rem 0 4.8rem 0;
+  }
+  .RentingFor-Section {
+    padding: 4.8rem;
+  }
+  .Slider-main {
+    padding-bottom: 4.8rem;
+  }
+  .Hero2-cont {
+    padding: 0 4.8rem;
+    grid-template-columns: auto;
+  }
+  .Hero2-cont img {
+    max-width: 64rem;
+    width: 100vw;
+  }
+  .Hero2-Section {
+    background-image: none;
+  }
+  .img2 img {
+    object-position: 0 20%;
+  }
+  .hero-img {
+    width: 100%;
+    height: 35rem;
+  }
+  .DefImg {
+    transform: scale(0.7);
+  }
+  .DateSelected {
+    width: 15rem;
+  }
+  .DaysActual {
+    grid-template-rows: repeat(4, 30px);
+  }
+  .DaysActual div {
+    padding: 1rem;
+  }
+  .CalendarScreen {
+    height: 40rem;
+  }
+  .tht-info h2 {
+    font-size: 2rem !important;
+  }
+  .tht-info p {
+    font-size: 1.4rem;
+  }
+  .tht-info button {
+    font-size: 1.4rem;
+    width: 40%;
+  }
+  .tht-info {
+    gap: 1rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 1.4rem 1.7rem;
+  }
+  .MN-Cont {
+    width: 100vw;
+  }
+  .Logo {
+    width: 25px;
+  }
+  .Logo_title {
+    gap: 1rem;
+  }
+  .Checkout-navbar {
+    padding: 0 2rem;
+  }
+  .EmptyCheckoutBox {
+    width: 45rem;
+    height: 30rem;
+  }
+}
