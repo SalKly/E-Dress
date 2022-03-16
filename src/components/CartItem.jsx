@@ -16,7 +16,7 @@ function CartItem(props) {
       <div className='ItemContent'>
         <div className='ItemImg'>
 
-          <img src={process.env.PUBLIC_URL + props.value.img}></img>
+          <img src={process.env.PUBLIC_URL + "/" + props.value.img}></img>
         </div>
         <div className='ItemInfo'>
           <p className='ItemHead'>{props.value.name}</p>

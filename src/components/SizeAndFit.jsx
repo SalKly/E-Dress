@@ -15,21 +15,21 @@ function SizeAndFit(props) {
         </div>
         <div className='SizeAFitItem'>
           <h3 className='CalenderTitle'>Size Chart</h3>
-          <img src='imgs/Sizes.png'></img>
+          <img src={process.env.PUBLIC_URL + '/imgs/Sizes.png'}></img>
         </div>
         <div className='SizeAFitItem'>
           <h3 className='CalenderTitle'>Plus Size Size Chart</h3>
-          <img className='PlusSize' src='imgs/PlusSize.png'></img>
+          <img className='PlusSize' src={process.env.PUBLIC_URL + '/imgs/PlusSize.png'}></img>
         </div>
         <div className='SizeAFitItem'>
           <h3 className='CalenderTitle'>Length Chart</h3>
-          <img src='imgs/length_Sizes.png'></img>
+          <img src={process.env.PUBLIC_URL + "/" + 'imgs/length_Sizes.png'}></img>
 
         </div>
         <p>DRESSES MAY NOT BE OFFERED IN ALL OF THE ABOVE LENGTHS.</p>
       </div>
 
-    </div>
+    </div >
   )
 }
 

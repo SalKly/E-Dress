@@ -72,19 +72,19 @@ function Productinfo(props) {
 
       <div className='ProductContainer'>
         <nav className='ProductSideimg'>
-          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowFront) }} ><img src={props.ChoosenImg.imgFront} ></img> </div>
-          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowBack) }} ><img src={props.ChoosenImg.imgBack} ></img> </div>
-          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowBack2) }} ><img src={props.ChoosenImg.imgBack2} ></img> </div>
+          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowFront) }} ><img src={process.env.PUBLIC_URL + "/" + props.ChoosenImg.imgFront} ></img> </div>
+          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowBack) }} ><img src={process.env.PUBLIC_URL + "/" + props.ChoosenImg.imgBack} ></img> </div>
+          <div onClick={() => { Choosenimg(props.ChoosenImg.imgshowBack2) }} ><img src={process.env.PUBLIC_URL + "/" + props.ChoosenImg.imgBack2} ></img> </div>
           {/* <a onClick={() => { Choosenimg(props.ChoosenImg.imgBack3) }} href='#'><img src={props.ChoosenImg.imgBack3} ></img> </a> */}
 
         </nav>
         <div onMouseMove={MouseMovment} className='ProductMainimg'>
 
-          <OnHoverImg ref={targetRef} style={{ backgroundPosition: dimensions.width + "%" + " " + dimensions.height + "%", backgroundImage: "url(" + Showimg + ")" }} className='OnHoverImg' >
+          <OnHoverImg ref={targetRef} style={{ backgroundPosition: dimensions.width + "%" + " " + dimensions.height + "%", backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + Showimg + ")" }} className='OnHoverImg' >
           </OnHoverImg>
 
 
-          <img className='DefImg' src={Showimg}></img>
+          <img className='DefImg' src={process.env.PUBLIC_URL + "/" + Showimg}></img>
 
 
 

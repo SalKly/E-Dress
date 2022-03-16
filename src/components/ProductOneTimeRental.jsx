@@ -82,7 +82,7 @@ function ProductOneTimeRental(props) {
           <p className='OnetimeTextSub'>Rent for 4 days</p>
           <p className='price'>{props.productinfo.price}LE</p>
         </div>
-        <img src={props.productinfo.imgFront} width={"40px"} height={"60px"}></img>
+        <img src={process.env.PUBLIC_URL + "/" + props.productinfo.imgFront} width={"40px"} height={"60px"}></img>
 
       </div>
 

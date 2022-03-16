@@ -13,9 +13,9 @@ function Menuitem(props) {
         <div className={props.state === "1" ? 'MenuCardImgs MenuCartmResp' : 'MenuCardImgs'}>
 
 
-          <img className={props.state === "0" ? 'imgBack Responsive' : 'imgBack'} src={process.env.PUBLIC_URL + props.data.imgBack}
+          <img className={props.state === "0" ? 'imgBack Responsive' : 'imgBack'} src={process.env.PUBLIC_URL + "/" + props.data.imgBack}
           />
-          <img className={props.state === "0" ? 'imgFront Responsive' : 'imgFront'} src={process.env.PUBLIC_URL + props.data.imgFront} />
+          <img className={props.state === "0" ? 'imgFront Responsive' : 'imgFront'} src={process.env.PUBLIC_URL + "/" + props.data.imgFront} />
 
         </div>
       </Link>
