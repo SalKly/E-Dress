@@ -14,11 +14,10 @@ import Login from './Login';
 import Register from './Register';
 import Checkout from './Checkout';
 import MenuSlider from './MenuSlider';
-import Hero2 from '../Hero2';
+import Hero2 from './Hero2';
 import ToHowto from './ToHowto';
 import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
-import Story from './Story';
 
 
 
@@ -87,7 +86,6 @@ function App() {
         } />
         <Route path='/HowTo' element={<div><Nav topstate={topstate} TotalPrice={TotalPrice} SetTotalPrice={SetTotalPrice} CartInfo={CartInfo} SetCartInfo={SetCartInfo} infoGet={mainNav}></Nav><How topstate={topstate}></How></div>}></Route>
 
-        <Route path='/Story' element={<div><Story topstate={true} ></Story></div>}></Route>
 
 
 
