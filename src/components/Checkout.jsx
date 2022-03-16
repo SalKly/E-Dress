@@ -33,7 +33,7 @@ function Checkout(props) {
       <div className='Checkout-cont'>
         <div className='Checkout-navbar'>
           <div className='Logo_title'>
-            <Link className='Logo-Link' to={"/"}>
+            <Link className='Logo-Link' to={"/E-Dress"}>
               <img className='Logo' src={"https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}
               ></img>
             </Link>

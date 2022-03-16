@@ -17,7 +17,7 @@ function Hero(props) {
 
       </div>
       <div className='hero-imgbox'>
-        <img className='hero-img' src={process.env.PUBLIC_URL + "/Imgs/Dress1.jpg"} alt='zew'></img>
+        <img className='hero-img' src={process.env.PUBLIC_URL + "/imgs/Dress1.jpg"} alt='zew'></img>
       </div>
     </div>
   </section >);

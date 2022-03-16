@@ -183,7 +183,7 @@ function Nav(props) {
         <nav className="main-nav">
           <div className='MN-main-nav-list' style={SearchActive ? { opacity: "0", visbility: "hidden" } : null}  >
             <FiMenu style={mobileNav ? { display: "none" } : null} onClick={() => { SetmobileNav(true) }} className='Burger'></FiMenu>
-            <Link className='Logo-Link' to={"/"}>
+            <Link className='Logo-Link' to={"/E-Dress"}>
               <img className='Logo' src={"https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}></img>
             </Link>
 
@@ -192,7 +192,7 @@ function Nav(props) {
 
 
           <ul className=" main-nav-list" style={SearchActive ? { opacity: "0", visbility: "hidden" } : null} >
-            <Link className='Logo-Link' to={"/"}>
+            <Link className='Logo-Link' to={"/E-Dress"}>
               <img className='Logo' src={"https://sf-p.rtrcdn.com/images/sprites/reb/svg/rtr_logo.svg"}></img>
             </Link>
             {(props.infoGet).map((navitemInfo) => {

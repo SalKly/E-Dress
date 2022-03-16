@@ -5,7 +5,7 @@ const mainNav = [
     id: 1,
     name: "PLANS",
     DropDownInfo: {
-      img: "assets/imgs/Plan1.webp",
+      img: "imgs/Plan1.webp",
       data: [
         ["CLOTHING", ["Dresses", "Tops", "Sweaters", "Outerwear", "Pants", "Skirts", "Gowns", "Jumpsuits & Rompers", " Activewear", "Maternity", "View All"]],
         ["WHAT TO WEAR", ["Wedding", "Gala", " Night Out", " Out to Dinner", " At the Office", " WFH Essentials", " Weekend", "Vacation"]],
