@@ -1,25 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import Hero from './Hero';
-import Nav from "./Nav"
-import Header from './Header';
-import How from "./How";
-import { mainNav, Announcements, Categories_info } from '../Info';
-import Categories from './Categories';
-import RentingFor from './RentingFor';
-import Shop from './Shop';
-import Productinfo from './Productinfo';
+import Hero from './components/Hero';
+import Nav from "./components/Nav"
+import Header from './components/Header';
+import How from "./components/How";
+import { mainNav, Announcements, Categories_info } from './Info';
+import Categories from './components/Categories';
+import RentingFor from './components/RentingFor';
+import Shop from './components/Shop';
+import Productinfo from './components/Productinfo';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Login from './Login';
-import Register from './Register';
-import Checkout from './Checkout';
-import MenuSlider from './MenuSlider';
-import Hero2 from './Hero2';
-import ToHowto from './ToHowto';
-import Footer from './Footer';
-import ScrollToTop from './ScrollToTop';
-
-
+import Login from './components/Login';
+import Register from './components/Register';
+import Checkout from './components/Checkout';
+import MenuSlider from './components/MenuSlider';
+import Hero2 from './components/Hero2';
+import ToHowto from './components/ToHowto';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import "./style.css"
+import "./general.css"
+import "./queries.css"
 
 
 function App() {

@@ -181,7 +181,7 @@ input.SearchInput {
 }
 
 .main-nav-link[target="false"]::after {
-  content: url("imgs/arrowUp.png");
+  content: url("../public/Imgs/arrowUp.png");
   bottom: 0;
   position: absolute;
   opacity: 0;
@@ -984,7 +984,7 @@ select option {
   pointer-events: none;
   display: block;
   width: 3rem;
-  background: url("imgs/down-arrow.png");
+  background: url("../public/Imgs/down-arrow.png");
   background-repeat: no-repeat;
   height: 100%;
   background-position: center;
@@ -1123,7 +1123,7 @@ select option {
   content: "";
   width: 5rem;
   height: 5rem;
-  background-image: url(imgs/cross.png);
+  background-image: url(../public/Imgs/cross.png);
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: center;
